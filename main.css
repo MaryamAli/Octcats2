@@ -1,4 +1,5 @@
-/*element reset*/
+/* Element reset, get rid of bullet style 
+of ul */
 
 ul{
   list-style-type: none;
