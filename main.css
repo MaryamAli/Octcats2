@@ -1,0 +1,40 @@
+/*element reset*/
+
+ul{
+  list-style-type: none;
+  padding:0;
+
+}
+
+/* img {max-width: 100%;} 
+= image will take up maximum 
+of px assigned to Main image*/
+
+img{
+  max-width: 100%;
+}
+
+/*Main object*/
+
+/* if % were used for .octocat, 
+mages would shrink with browser size
+change margin-right to % as well*/
+
+.octocat {
+  width: 300px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.octocat img{
+  border: 1px solid grey;
+ 
+ /*footer area*/
+
+ /*author area*/
+
+}
+.authors img{
+  width: 25px;
+}
+
