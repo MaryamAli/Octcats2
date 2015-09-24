@@ -29,12 +29,33 @@ change margin-right to % as well*/
 
 .octocat img{
   border: 1px solid grey;
+ }
  
  /*footer area*/
 
+.image-footer{
+  border-bottom: 1px solid grey;
+  overflow: auto;
+  /*overflow moves border underneath
+  floated elements*/
+}
+
+.image-number{
+  float:left;
+}
+
+.image-caption{
+ 
+float: right;
+}
+
  /*author area*/
 
+.authors {
+  display: inline-block;
 }
+
+
 .authors img{
   width: 25px;
 }
